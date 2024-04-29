@@ -409,9 +409,9 @@ void ServerNode::publish_fleet_state()
     else
     {
       rmf_frame_rs.battery_percent = 0;
-      rmf_frame_rs.location.x=0;
-      rmf_frame_rs.location.y=0;
-      rmf_frame_rs.location.yaw=0;
+      // rmf_frame_rs.location.x=0;
+      // rmf_frame_rs.location.y=0;
+      // rmf_frame_rs.location.yaw=0;
       rmf_frame_rs.mode.mode = rmf_fleet_msgs::msg::RobotMode::MODE_ADAPTER_ERROR;
     }
 
